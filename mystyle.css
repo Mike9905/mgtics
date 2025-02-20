@@ -1,0 +1,73 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ font-family: Arial;  
+ background-color: rgb(43, 43, 43);
+ color: white; 
+}
+p{
+    line-height:1.5;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+}
+/*utilites*/
+.active{
+    color: rgb(63, 146, 146);
+    font-weight: bold;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*nav*/
+.menu-nav{
+    height: 60px;
+    background-color: white;
+    padding-left: 20px;
+}
+.menu-nav a{
+    margin-right: 30px;
+}
+.menu-nav a:hover{
+color: rgb(63, 146, 146);
+}
+
+/*header*/
+.my-info{
+    padding-top: 30px;
+    text-align: center;
+
+}
+.my-info img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.my-info h1{
+    font-weight: 400;
+    font-size: 42px;
+
+}
+.my-info{
+    font-size: 22px;
+}
+.text-primary{
+    color: rgb(178, 164, 164);
+}
+.text-secundary{
+    color: rgb(63, 146, 146)
+}
+/*main*/
