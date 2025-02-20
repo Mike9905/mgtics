@@ -18,6 +18,20 @@ a{
 h2{
     text-align: center;
 }
+/* table */
+table{
+    width: 500px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-right: 20px;
+    text-align: center;
+}
+td,th{
+    width: 500px;
+    border: 1px solid white;
+    padding: 20px;
+    
+}
 /*utilites*/
 .active{
     color: rgb(63, 146, 146);
@@ -27,7 +41,17 @@ h2{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    line-height: 200%;
+    
 }
+.container2{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  
+    
+}
+
 /*nav*/
 .menu-nav{
     height: 60px;
@@ -71,3 +95,53 @@ color: rgb(63, 146, 146);
     color: rgb(63, 146, 146)
 }
 /*main*/
+
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*horizontal*/
+     align-items: center; /*vertical*/
+    height: 70vh;
+    
+}
+header{
+    width: 60%;
+}
+.interest-flex{
+    display: flex;
+    justify-content: flex-start; /*horizontal*/
+   
+}
+/* .publication */
+.publication-title{
+    color: rgb(63, 146, 146);
+    font-size: 24px;
+    font-weight: 400;
+}
+.publication-authors{
+font-size: 14px;
+color: rgb(151, 151, 151);
+
+}
+.publication-link{
+    color: rgb(63, 146, 146);
+    border: 1px solid rgb(12,116,121);
+    border-radius: 3px;
+    padding: 3px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.publication-title:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.publication-authors:hover{
+    color: rgb(12,116,121);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.publication-link:hover{
+    background-color:rgb(12,116,121);
+    cursor: pointer;
+    color: white;
+}
